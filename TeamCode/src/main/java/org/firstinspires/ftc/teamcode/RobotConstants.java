@@ -8,9 +8,9 @@ import com.qualcomm.hardware.gobilda.GoBildaPinpointDriver.*;
 public class RobotConstants {
     public static final class PINPOINT {
         public static final String hardwareName = "pinpoint";
-        public static final double xOffset = -84;
-        public static final double yOffset = 168;
-        public static final EncoderDirection forwardDirection = EncoderDirection.FORWARD;
+        public static final double xOffset = 72;
+        public static final double yOffset = 0;
+        public static final EncoderDirection forwardDirection = EncoderDirection.REVERSED;
         public static final EncoderDirection strafeDirection = EncoderDirection.FORWARD;
     }
 }
